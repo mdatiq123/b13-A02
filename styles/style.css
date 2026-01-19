@@ -11,7 +11,9 @@
 body {
     font-family: "Inter", sans-serif;
 }
-
+header{
+    margin-right: 0;
+}
 
 .hamburger {
     display: none;
@@ -31,9 +33,15 @@ body {
     left: 1070px;
     top: 131px;
 }
-.section-heading{
-        top: 581px;
-    left: 640px;
+
+.section-heading {
+    top: 581px;
+    left: 697px;
+}
+.footer-container{
+    left: 692px;
+    top: 109px;
+    text-align: center;
 }
 
 
@@ -48,5 +56,67 @@ body {
 
     .nav-menu {
         display: none;
+    }
+
+    #banner .circle-img {
+        left: 113px;
+        top: 92px;
+    }
+
+    #banner .micro {
+        left: 230px;
+        top: 178px;
+    }
+
+    #banner .box {
+        left: 386px;
+        top: 131px;
+    }
+
+    .section-heading {
+        top: 581px;
+        left: 52px;
+    }
+    .section-heading p{
+        text-overflow: ellipsis;
+    }
+    hr{
+        max-width: 400px;
+    }
+    #rateing{
+       grid-template-rows: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .section-cards{
+        padding-left:20px ;
+        padding-right: 20px;
+    }
+    
+    .section-cards .card{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+        grid-row: span 1;
+        grid-column: span 1;
+        padding: 24px;
+    }
+    .feature-container{
+        flex-direction: column;
+    }
+    .host-container{
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .host-text{
+        text-align: center;
+    }
+    .host-icons{
+        justify-content: center;
+    }
+    .footer-container{
+        left: 23px;
+    }
+    #footer{
+        background-size:;
     }
 }
