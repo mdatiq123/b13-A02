@@ -1,0 +1,52 @@
+@import "tailwindcss"
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+
+.hamburger {
+    display: none;
+}
+
+#banner .circle-img {
+    left: 784px;
+    top: 92px;
+}
+
+#banner .micro {
+    left: 899px;
+    top: 178px;
+}
+
+#banner .box {
+    left: 1070px;
+    top: 131px;
+}
+.section-heading{
+        top: 581px;
+    left: 640px;
+}
+
+
+@media screen and (max-width:576px) {
+    .hamburger {
+        display: inline;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+}

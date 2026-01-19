@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>TechWave</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-   
+    <header class="bg-[#1A0B2E] ">
+        <nav class="flex justify-around items-center border-[#3c1d65] pt-[24px] pb-[24px]">
+            <div class="text-4xl font-extrabold logo text-[#EEEEEE]">Tech<span class="bg-gradient-to-r from-red-500 via-yellow-500 to-purple-500 
+           bg-clip-text text-transparent">Wave</span></div>
+               
+                 <div class="nav-menu">
+                    <ul class="flex gap-[32px] text-[16px]  ">
+                        <li class="text-[#FFFFFF] text-[13px] font-normal ">About</li>
+                        <li class="text-[#FFFFFF] text-[13px] font-normal ">Episodes</li>
+                        <li class="text-[#FFFFFF] text-[13px] font-normal ">Host</li>
+                    </ul>
+                </div>
+               <div class="btn"> <button class="flex text-[#FFFFFF] w-[135px] h-[44px] px-[16px] py-[12px] gap-[4px] bg-gradient-to-r 
+               from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-3xl items-center border-none">Subscribe
+                    <img class="w-[20px] h-[20px]" src="./assets/right.png" alt="">
+                </button></div>
+               
+               <div class="hamburger"><img src="./assets/hamburger-menu.png" alt=""></div>
+        </nav>
+
+
+        <section id="banner" class="relative bg-[url('/assets/hero-bg.png')]  bg-center bg-no-repeat h-64 w-full h-[760px] mx-auto bg-center ">
+            <img class="absolute circle-img " width="350px" height="350px" src="assets/hero-circle.png" alt="">
+            <img class="absolute micro " src="assets/microphone.png" alt="">
+            <div class="bg-[#00FF88] rounded-3xl px-4 py-2 absolute box text-[16px] text-black shadow-[0_3px_27px_0_#00FF88] font-semibold">NEW</div>
+         </section>
+         <section>
+            <div class="mt-2.5 absolute top-1/2 left-1/2 -translate-x-1/2-translate-y-6 translate-x-12 flex flex-col justify-center items-center section-heading">
+                <h1 class="text-3xl text-[60px] font-extrabold text-[#FFFFFF]">TechWave</h1>
+                <p class="text-[#FFFFFF] font-normal text-center opacity-80 ">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                <div class="btn mt-6 flex gap-[8px]">
+                    <button class="flex gap-[8px] text-white bg-gradient-to-r 
+               from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-3xl items-center border-none p-3  "><img width="20px" height="20px" src="assets/spotify.png" alt="">Listen on Spotify</button>
+                    <button class="flex gap-[8px] p-3 border-2 rounded-3xl border-green-400 text-[#00FF88] "><img height="20px " width="20px" src="assets/message.png" alt="">Subscribe</button>
+                </div>
+            </div>
+         </section>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
