@@ -11,7 +11,8 @@
 body {
     font-family: "Inter", sans-serif;
 }
-header{
+
+header {
     margin-right: 0;
 }
 
@@ -38,12 +39,16 @@ header{
     top: 581px;
     left: 697px;
 }
-.footer-container{
-    left: 692px;
-    top: 109px;
+
+.footer-container {
+    left: 574px;
+    top: -9px;
     text-align: center;
 }
 
+.sponsors-icon {
+    margin-bottom: 25px;
+}
 
 @media screen and (max-width:576px) {
     .hamburger {
@@ -77,46 +82,135 @@ header{
         top: 581px;
         left: 52px;
     }
-    .section-heading p{
+
+    .section-heading p {
         text-overflow: ellipsis;
     }
-    hr{
+
+    hr {
         max-width: 400px;
     }
-    #rateing{
-       grid-template-rows: repeat(2, minmax(0, 1fr));
+
+    #rateing {
+        grid-template-rows: repeat(2, minmax(0, 1fr));
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
-    .section-cards{
-        padding-left:20px ;
+
+    .section-cards {
+        padding-left: 20px;
         padding-right: 20px;
     }
-    
-    .section-cards .card{
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(1,1fr);
+
+    .section-cards .card {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
         grid-row: span 1;
         grid-column: span 1;
         padding: 24px;
     }
-    .feature-container{
+
+    .feature-container {
         flex-direction: column;
     }
-    .host-container{
+
+    .host-container {
         flex-direction: column;
         margin-left: 20px;
         margin-right: 20px;
     }
-    .host-text{
+
+    .host-text {
         text-align: center;
     }
-    .host-icons{
+
+    .host-icons {
         justify-content: center;
     }
-    .footer-container{
-        left: 23px;
+
+    #footer {
+        background-position: center;
+        background-size: cover;
+        height: 248px;
+
     }
-    #footer{
-        background-size:;
+
+    .footer-container {
+
+        left: 7px;
+        top: -6px;
+        padding: 37px 20px;
+
     }
+
+    .sponsors-icon {
+        flex-wrap: wrap;
+        padding: 0 96px;
+        margin-bottom: 12px;
+        gap: 6px;
+    }
+
+}
+
+@media screen and (max-width:993px) {
+
+    #banner .circle-img {
+        left: 323px;
+        top: 92px;
+    }
+
+    #banner .micro {
+        left: 441px;
+        top: 178px;
+    }
+
+    .section-heading {
+        left: 273px;
+    }
+
+    #banner .box {
+        left: 600px;
+    }
+
+    .feature-card {
+        width: 275px;
+    }
+
+    iframe {
+        width: 275px;
+    }
+
+    .footer-container {
+        left: 234px;
+        top: 105px;
+
+    }
+
+    .host-container {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    #rateing {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .section-cards{
+        margin-left:100px;
+        margin-right:100px;
+        grid-template-columns: repeat(3 , 1f);
+        grid-template-rows: repeat(3 , 1fr);
+    }
+    .card-1{
+        grid-row: span 2;
+    }
+    .card-2{
+        grid-column: span 2;
+    }
+    .card-3{
+        grid-column: span 2;
+    }
+    .card-4{
+        grid-column: span 2;
+    }
+
 }
