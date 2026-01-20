@@ -138,7 +138,7 @@ header {
 
         left: 7px;
         top: -6px;
-        padding: 37px 20px;
+        padding: 30px 20px;
 
     }
 
@@ -158,8 +158,18 @@ header {
         top: 92px;
     }
 
+    #banner .circle-img {
+        left: 111px;
+        top: 92px;
+    }
+
     #banner .micro {
         left: 441px;
+        top: 178px;
+    }
+
+    #banner .micro {
+        left: 230px;
         top: 178px;
     }
 
@@ -169,6 +179,9 @@ header {
 
     #banner .box {
         left: 600px;
+    }
+    #banner .box {
+        left: 390px;
     }
 
     .feature-card {
@@ -193,24 +206,59 @@ header {
     #rateing {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(1, 1fr);
+        padding: 40px 113px;
     }
-    .section-cards{
-        margin-left:100px;
-        margin-right:100px;
-        grid-template-columns: repeat(3 , 1f);
-        grid-template-rows: repeat(3 , 1fr);
+
+    .section-cards {
+        margin-left: 100px;
+        margin-right: 100px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
     }
-    .card-1{
+    .section-cards {
+        margin-left: 100px;
+        margin-right: 100px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .card-1 {
         grid-row: span 2;
+        padding: 40px;
     }
-    .card-2{
+    .card-1 {
+        grid-row: span 1;
+        padding: 40px;
+    }
+
+    .card-2 {
         grid-column: span 2;
     }
-    .card-3{
+    .card-2 {
+        grid-column: span 1;
+    }
+
+    .card-3 {
         grid-column: span 2;
     }
-    .card-4{
+    .card-3 {
+        grid-column: span 1;
+    }
+
+    .card-4 {
         grid-column: span 2;
+    }
+    .card-4 {
+        grid-column: span 1;
+    }
+
+    .footer-container {
+        left: 8px;
+        top: 7px;
+    }
+
+    .section-heading {
+        left: 52px;
     }
 
 }
